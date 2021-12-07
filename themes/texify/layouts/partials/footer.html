@@ -1,0 +1,14 @@
+<footer id="footer">
+  <div>
+    <span>©</span> <span>{{ now.Format "2006"}} Mikael Arvola</span>
+  </div>
+
+  <div>
+    <span>Powered by </span>
+    <a class="link" href="https://gohugo.io/">Hugo</a>
+  </div>
+
+  <div class="footnote">
+    <span>{{ .Site.Params.footnote | safeHTML }}</span>
+  </div>
+</footer>
