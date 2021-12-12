@@ -1,4 +1,4 @@
-baseURL = "https://arvola.com/woodwork/"
+baseURL = "https://arvola.com/"
 defaultContentLanguage = "en"
 languageCode = "en"
 paginate = 5
@@ -36,6 +36,7 @@ name = "Mikael"
 
 
 [params]
+  sitemapBase = "https://arvola.com/woodwork"
   relativeURLs = true
   customCSS = []
   dateFormat = "2006-01-02"
