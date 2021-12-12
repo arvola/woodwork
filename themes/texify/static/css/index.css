@@ -1,25 +1,41 @@
-#main > .post + .post {
-    margin-top: 2rem;
+.covered-index {
+    display: flex;
+    justify-content: flex-start
 }
 
-#main > .post > h2 {
+.covered-post {
+    flex: 0 0 48%;
+    margin: 0 1%;
+}
+
+.post-cover img {
+    max-width: 100%;
+}
+
+.covered-index .post > h2 {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 16px;
 }
 
-#main > .post > h2 > time {
-    font-size: 1rem;
+.covered-index .post > h2 > time {
+    font-size: 16px;
     font-weight: normal;
+}
+
+#main > h1 {
+    text-align: center;
+    margin: 20px 0 50px;
 }
 
 #main > .post > .content {
     padding-top: 1rem;
 }
 
-@media screen and (min-width: 768px) {
-    #main > .post > div {
-        margin-left: 2rem;
+@media screen and (max-width: 560px) {
+    .covered-post {
+        flex: 0 0 100%;
     }
 }

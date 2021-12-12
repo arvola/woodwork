@@ -1,56 +1,75 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
 <!-- author -->
-<meta name="author" content="{{ .Site.Author.name }}">
+<meta name="author" content="{{ .Site.Author.name }}" />
 
-<!-- description -->
-{{ if .Description }}
-<meta name="description" content="{{ .Description }}">
-{{ else if and .IsPage .Summary }}
-<meta name="description" content="{{ .Summary }}">
-{{ else }}
-<meta name="description" content="{{ .Site.Params.description }}">
+{{/* Generate page description. */}}
+{{ $desc := "" }}
+{{ if .Params.summary }}
+    {{ $desc = .Params.summary }}
+{{ else if .Params.abstract }}
+    {{ $desc = .Params.abstract }}
+{{ else if and .Summary .IsPage }}
+    {{ $desc = .Summary }}
+{{ else if site.Params.description }}
+    {{ $desc = site.Params.description }}
 {{ end }}
+<meta name="description" content="{{ $desc }}" />
+<meta
+    property="og:title"
+    content="{{ if not .IsHome }}{{ .Title }} |{{ end }}{{ site.Title }}"
+/>
+<meta property="og:description" content="{{ $desc }}" />
 
 <!-- favicon -->
-<link rel="icon" href="{{ .Site.Params.favicon }}">
+<link rel="icon" href="{{ .Site.Params.favicon }}" />
 
 <!-- keywords -->
 {{ if .Keywords }}
-<meta name="keywords" content="{{ range $key, $value := .Keywords }} {{ $value }} {{ end }}">
+    <meta
+        name="keywords"
+        content="{{ range $key, $value := .Keywords }}{{ $value }}{{ end }}"
+    />
 {{ else }}
-<meta name="keywords" content="{{ range $key, $value := .Site.Params.keywords }} {{ $value }} {{ end }}">
+    <meta
+        name="keywords"
+        content="{{ range $key, $value := .Site.Params.keywords }}
+            {{ $value }}
+        {{ end }}"
+    />
 {{ end }}
 
-<!-- mathjax -->
-{{ if .Site.Params.enableMathjax }}
-{{ partial "mathjax.html" . }}
-{{ end }}
 
 <!-- permalink -->
-<link rel="canonical" href="{{ .Permalink }}">
+<link rel="canonical" href="{{ .RelPermalink }}" />
 
 <!-- rss -->
 {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 {{ end -}}
+
 
 <!-- site title -->
 {{ if .IsHome }}
-<title>{{ .Site.Title }}</title>
+    <title>{{ .Site.Title }}</title>
 {{ else }}
-<title>{{ .Title }} - {{ .Site.Title }}</title>
+    <title>{{ .Title }} - {{ .Site.Title }}</title>
 {{ end }}
 
+
 <!-- style -->
-<link media="screen" rel="stylesheet" href='{{ "css/common.css" | absURL }}'>
-<link media="screen" rel="stylesheet" href='{{ "css/content.css" | absURL }}'>
-<link media="screen" rel="stylesheet" href='{{ "css/highlight.css" | absURL }}'>
+<link media="screen" rel="stylesheet" href="{{ "css/vars.css" | relURL }}" />
+<link media="screen" rel="stylesheet" href="{{ "css/common.css" | relURL }}" />
+<link media="screen" rel="stylesheet" href="{{ "css/content.css" | relURL }}" />
+<link
+    media="screen"
+    rel="stylesheet"
+    href="{{ "css/highlight.css" | relURL }}"
+/>
 
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:description" content="{{ .Summary }}" />
-
+<meta name="twitter:description" content="{{ $desc }}" />

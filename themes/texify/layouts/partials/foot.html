@@ -1,6 +1,6 @@
 <!-- custom css -->
 {{ range .Site.Params.customCSS }}
-<link media="screen" rel="stylesheet" href="{{ . | absURL }}" />
+<link media="screen" rel="stylesheet" href="{{ . | relURL }}" />
 {{ end }}
 
 <!-- google analytics -->

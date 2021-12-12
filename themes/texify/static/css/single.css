@@ -1,5 +1,14 @@
 #main > h1 {
     text-align: center;
+    margin: 20px 0 10px;
+}
+
+#main > .post-date {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: var(--secondary);
+    margin-bottom: 20px;
 }
 
 #main > div + .content {

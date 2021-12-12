@@ -1,8 +1,8 @@
-+++
-title = "About"
-description = "About the blog."
-date = "2021-12-05"
-+++
+---
+title: "About"
+description: "About the blog."
+date: "2021-12-05"
+---
 
 This will be a simple site logging my woodworking experiences.
 

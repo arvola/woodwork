@@ -1,10 +1,10 @@
-baseURL = "https://hugo-theme-texify.qufy.me"
+baseURL = "https://arvola.blog"
 defaultContentLanguage = "en"
 languageCode = "en"
 paginate = 5
 theme = "texify"
-title = "Arvola Woods"
-
+title = "Arvola Woodwork"
+relativeURLs = true
 disqusShortname = ""
 googleAnalytics = ""
 pygmentsUseClasses = true
@@ -34,14 +34,15 @@ name = "Mikael"
   url = "/about/"
   weight = 3
 
+
 [params]
+  relativeURLs = true
   customCSS = []
   dateFormat = "2006-01-02"
   description = "Mikael's woodworking journal."
   enableFullRSS = true
-  enableMathjax = true
   favicon = "/favicon.ico"
-  footnote = "patentia artificis"
+  footnote = "lignum artificia"
   keywords = ["wood", "woodworking", "crafts", "projects"]
 
 # see https://utteranc.es for installation guide
