@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arvola Woodwork</title><link>/woodwork/</link><description>Recent content on Arvola Woodwork</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/woodwork/index.xml" rel="self" type="application/rss+xml"/><item><title>Workbench</title><link>/woodwork/post/old/workbench/</link><pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate><guid>/woodwork/post/old/workbench/</guid><description>&lt;p>This is a project I originally completed in 2018.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arvola Woodwork</title><link>/</link><description>Recent content on Arvola Woodwork</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Workbench</title><link>/post/old/workbench/</link><pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate><guid>/post/old/workbench/</guid><description>&lt;p>This is a project I originally completed in 2018.&lt;/p>
 &lt;p>For a long time I wanted to get into woodworking. I had some experience through
 school, as I always selected woodworking for elective classes. The projects at
 school were always relatively simple and largely relied on machines, so that
@@ -81,7 +81,7 @@ alt="Figure 6. Completed workbench."/>&lt;figcaption>
 &lt;/figcaption>
 &lt;/figure>
 &lt;p>Thank you for reading the first post on my woodworking blog. I intend to write
-up a record of my past projects, and this was the first one.&lt;/p></description></item><item><title>About</title><link>/woodwork/about/</link><pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate><guid>/woodwork/about/</guid><description>&lt;p>This will be a simple site logging my woodworking experiences.&lt;/p>
+up a record of my past projects, and this was the first one.&lt;/p></description></item><item><title>About</title><link>/about/</link><pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate><guid>/about/</guid><description>&lt;p>This will be a simple site logging my woodworking experiences.&lt;/p>
 &lt;p>I will try to update it as my projects move forward, and I intend
 to slowly add posts for older projects.&lt;/p>
 &lt;p>A few technical details:&lt;/p>
@@ -102,4 +102,4 @@ browser, instead of needing to support IPFS.&lt;/li>
 &lt;li>The theme is based on &lt;a href="https://github.com/queensferryme/hugo-theme-texify/" target="_blank">hugo-theme-texify&lt;/a>
 ,
 I enjoy the academic look of LaTeX.&lt;/li>
-&lt;/ul></description></item><item><title/><link>/woodwork/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>/woodwork/archives/</guid><description/></item></channel></rss>
+&lt;/ul></description></item><item><title/><link>/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>/archives/</guid><description/></item></channel></rss>
