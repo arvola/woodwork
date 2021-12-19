@@ -23,6 +23,19 @@
 />
 <meta property="og:description" content="{{ $desc }}" />
 
+{{ if .IsPage }}
+    {{ with .Resources }}
+        {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
+            {{ $cover := .Fill "600x400 smart" }}
+            {{ with $cover }}
+                <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+            {{ end }}
+        {{ end }}
+    {{ end }}
+
+{{ end }}
+
+
 <!-- favicon -->
 <link rel="icon" href="{{ .Site.Params.favicon }}" />
 

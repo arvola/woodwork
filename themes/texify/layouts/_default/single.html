@@ -18,14 +18,14 @@
       {{ else }}
       <!-- post -->
       <h1>{{ .Title }}</h1>
-      <div class="post-date">
+      <div class="post-date {{ if ne .Params.tags nil}}with-tags {{end}}">
         {{ .PublishDate.Format "January 2, 2006" }}
       </div>
       {{ if ne .Params.tags nil }}
-      <div>
-        <b>Keywords: </b>
+      <div class="post-keywords">
+        <span>Keywords</span>
         {{ range .Params.tags }}
-        <a class="link" href='{{ "tags" | relURL }}/{{ . | urlize }}'>#{{ . }}</a>
+        <a class="link" href='{{ "tags" | relURL }}/{{ . | urlize }}'>{{ . }}</a>
         {{ end }}
       </div>
       {{ end }}

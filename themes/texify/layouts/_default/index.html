@@ -35,19 +35,7 @@
                                     >{{ .PublishDate.Format .Site.Params.dateFormat }}</time
                                 >
                             </h2>
-                            {{ if ne .Params.tags nil }}
-                                <div>
-                                    <b>Keywords: </b>
-                                    {{ range .Params.tags }}
-                                        <a
-                                            class="link"
-                                            href="{{ "tags" | relURL }}/{{ . | urlize }}"
-                                            >#{{ . }}</a
-                                        >
-                                    {{ end }}
-                                </div>
-                            {{ end }}
-                        </div>
+                       </div>
                     {{ end }}
                     {{ if or $paginator.HasPrev $paginator.HasNext }}
                         <div class="paginator">

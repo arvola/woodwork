@@ -1,11 +1,12 @@
 .covered-index {
     display: flex;
-    justify-content: flex-start
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .covered-post {
     flex: 0 0 48%;
-    margin: 0 1%;
+    margin: 0 1% 30px;
 }
 
 .post-cover img {
@@ -25,6 +26,15 @@
     font-weight: normal;
 }
 
+.covered-index .post-keywords {
+    font-size: 0.8em;
+    color: #666;
+}
+.covered-index .post-keywords a {
+    color: var(--secondary);
+    opacity: 0.7;
+}
+
 #main > h1 {
     text-align: center;
     margin: 20px 0 50px;
@@ -37,5 +47,9 @@
 @media screen and (max-width: 560px) {
     .covered-post {
         flex: 0 0 100%;
+        margin-bottom: 50px;
+    }
+    .covered-index .post > h2 {
+        font-size: 1.4em;
     }
 }

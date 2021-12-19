@@ -1,6 +1,10 @@
 ---
 title: Workbench
 date: 2021-12-11
+tags: 
+    - large
+    - tools
+    - pine
 ---
 
 This is a project I originally completed in 2018.
