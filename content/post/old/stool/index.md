@@ -5,6 +5,7 @@ tags:
     - small
     - furniture
     - walnut
+summary: A walnut foot stool, my first furnite project.
 ---
 
 This is a project I originally completed in 2018.

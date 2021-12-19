@@ -28,11 +28,14 @@
         {{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
             {{ $cover := .Fill "600x400 smart" }}
             {{ with $cover }}
-                <img src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+                <meta property="og:type" content="article" />
+                <meta
+                    property="og:image"
+                    content="{{ .RelPermalink }}"
+                />
             {{ end }}
         {{ end }}
     {{ end }}
-
 {{ end }}
 
 
