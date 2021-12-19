@@ -14,7 +14,7 @@ This is a project I originally completed in 2018.
     caption="Figure 1. Finished foot stool.">}}
 
 After I finished the workbench, I made my first major purchase for
-woodworking in the form of a stack giant pieces of cherry lumber,
+woodworking in the form of a stack of 10 foot long cherry lumber,
 and a few pieces of walnut.
 
 The walnut was 6/4 (ie. 1.5 inches, or 35 mm), a perfect thickness for
