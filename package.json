@@ -1,0 +1,16 @@
+{
+  "name": "@arvola/woodwork",
+  "version": "1.0.0",
+  "description": "Woodworking blog.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvola/woodwork.git"
+  },
+  "author": "arvola",
+  "homepage": "https://github.com/arvola/woodwork#readme",
+  "dependencies": {
+    "postcss": "8.4.26",
+    "postcss-cli": "10.1.0"
+  }
+}

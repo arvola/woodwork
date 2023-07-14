@@ -23,3 +23,7 @@
 tags
 # Persistent undo
 [._]*.un~
+
+
+### Packages
+node_modules/
