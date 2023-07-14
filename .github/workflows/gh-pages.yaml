@@ -23,7 +23,7 @@ jobs:
           hugo-version: '0.115.3'
           extended: true
       - name: Install Dart Sass
-        run: sudo snap install dart-sass-embedded
+        run: sudo snap install dart-sass
 
       - name: Build
         run: hugo --minify
