@@ -1,0 +1,12 @@
+{{- $src := .Get "src" -}}
+{{- $id := printf "%d-gallery-%d" .Parent.Ordinal .Ordinal -}}
+{{- $src := $.Get "src" -}}
+{{- $img := $.Page.Resources.GetMatch $src -}}
+
+  <div class="gallery-item">
+      <input type="radio" id="{{$id}}" {{ if eq .Ordinal 0 }} checked{{ end }} name="gallery" class="gallery-selector"/>
+      <div class="gallery-img">
+      <img src="{{$img.RelPermalink}}" alt=""/>
+      </div>
+      <label for="{{$id}}" class="gallery-thumb" style="background-image: url({{$img.RelPermalink}});"></label>
+  </div>

@@ -8,6 +8,13 @@ tags:
 summary: A walnut foot stool, my first furnite project.
 ---
 
+{{< gallery >}}
+{{< photo src="parts.jpg" >}}
+{{< photo src="brace.jpg" >}}
+{{< photo src="gluing.jpg" >}}
+{{< photo src="lumi.jpg" >}}
+{{< /gallery >}}
+
 This is a project I originally completed in 2018.
 
 {{< figure src="00-stool.jpg"

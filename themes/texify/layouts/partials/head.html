@@ -76,14 +76,26 @@
 
 
 <!-- style -->
-<link media="screen" rel="stylesheet" href="{{ "css/vars.css" | relURL }}" />
-<link media="screen" rel="stylesheet" href="{{ "css/common.css" | relURL }}" />
-<link media="screen" rel="stylesheet" href="{{ "css/content.css" | relURL }}" />
-<link
-    media="screen"
-    rel="stylesheet"
-    href="{{ "css/highlight.css" | relURL }}"
-/>
+
+{{ $options := (dict "outputStyle" "compressed" "enableSourceMap" true "transpiler" "dartsass" ) }}
+{{ $style := resources.Get "css/main.scss" | resources.ToCSS $options | resources.Fingerprint }}
+
+<!-- SECTION: CSS -->
+{{ $inServerMode := .Site.IsServer }}
+{{ $sass         := resources.Get "css/main.scss" }}
+{{ $sassIncludes := (slice "assets/css") }}
+{{ $cssTarget    := "css/styles.css" }}
+{{ $cssOpts      := cond ($inServerMode) (dict "transpiler" "dartsass" "targetPath" $cssTarget "enableSourceMap" true "includePaths" $sassIncludes) (dict "transpiler" "dartsass" "targetPath" $cssTarget "includePaths" $sassIncludes "outputStyle" "compressed") }}
+
+{{ if or ($inServerMode) (eq .Site.Params.env "LOCAL") }}
+
+{{ $css := $sass | resources.ExecuteAsTemplate "main.scss" . | toCSS $cssOpts }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" media="screen">
+{{ else }}
+
+{{ $css := $sass | resources.ExecuteAsTemplate "main.scss" . | toCSS $cssOpts | resources.PostCSS | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" media="screen">
+{{ end }}
 
 <!-- twitter -->
 <meta name="twitter:card" content="summary" />
