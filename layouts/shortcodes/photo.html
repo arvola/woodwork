@@ -3,10 +3,23 @@
 {{- $src := $.Get "src" -}}
 {{- $img := $.Page.Resources.GetMatch $src -}}
 
-  <div class="gallery-item">
-      <input type="radio" id="{{$id}}" {{ if eq .Ordinal 0 }} checked{{ end }} name="gallery" class="gallery-selector"/>
-      <div class="gallery-img">
-      <img src="{{$img.RelPermalink}}" alt=""/>
-      </div>
-      <label for="{{$id}}" class="gallery-thumb" style="background-image: url({{$img.RelPermalink}});"></label>
-  </div>
+<div class="gallery-item">
+    <input
+        type="radio"
+        id="{{ $id }}"
+        {{ if eq .Ordinal 0 }}checked{{ end }}
+        name="gallery"
+        class="gallery-selector"
+    />
+    <div class="gallery-img">
+        <img src="{{ path.Base $img }}" alt="" />
+        {{ with .Get "caption" }}
+            <div class="gallery-caption">{{ . }}</div>
+        {{ end }}
+    </div>
+    <label
+        for="{{ $id }}"
+        class="gallery-thumb"
+        style="background-image: url({{ path.Base $img }});"
+    ></label>
+</div>

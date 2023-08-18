@@ -12,5 +12,8 @@
   "dependencies": {
     "postcss": "8.4.26",
     "postcss-cli": "10.1.0"
+  },
+  "devDependencies": {
+    "prettier-plugin-go-template": "^0.0.15"
   }
 }

@@ -36,6 +36,10 @@ $max-img-height: 400px;
             max-width: 100%;
             max-height: $max-img-height;
         }
+
+        .gallery-caption {
+            font-size: 0.8em;
+        }
     }
 
     .gallery-thumb {
