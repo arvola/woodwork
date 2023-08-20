@@ -15,10 +15,7 @@ A few technical details:
 - [Hugo](https://gohugo.io/) is responsible for turning the content into
   a website. I considered others as well, but Hugo seems to have the best
   support.
-- The site is hosted on [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System),
-  with the help of [Pinata](https://www.pinata.cloud/).
-  [Cloudflare](https://www.cloudflare.com/) makes the website accessible through a normal
-  browser, instead of needing to support IPFS.
+- The site is also [hosted on IPFS](https://ipfs.filebase.io/ipfs/QmSrfSen9BgbQeMKfAofWeBNm4rYwUYvFpLupHF3X9n8Yr/) as an alternative.
 - The theme is based on [hugo-theme-texify](https://github.com/queensferryme/hugo-theme-texify/),
   I enjoy the academic look of LaTeX.
 

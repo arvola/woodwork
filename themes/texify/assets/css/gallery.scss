@@ -12,7 +12,7 @@ $max-img-height: 400px;
 
 .photo-gallery {
     display: flex;
-    margin: 10px auto;
+    margin: 30px auto 10px;
     max-width: $max-img-width;
     position: relative;
     padding-top: $max-img-height + 20px;
@@ -48,6 +48,7 @@ $max-img-height: 400px;
         display: block;
         width: 76px;
         height: 76px;
+        cursor: pointer;
         background: url() center center / cover no-repeat;
     }
 
