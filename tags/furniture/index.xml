@@ -1,4 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>furniture on Arvola Woodwork</title><link>/tags/furniture/</link><description>Recent content in furniture on Arvola Woodwork</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/furniture/index.xml" rel="self" type="application/rss+xml"/><item><title>Library Cart</title><link>/post/old/librarycart/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>/post/old/librarycart/</guid><description>&lt;p>This is a project originally done in 2018.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>furniture on Arvola Woodwork</title><link>/tags/furniture/</link><description>Recent content in furniture on Arvola Woodwork</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/furniture/index.xml" rel="self" type="application/rss+xml"/><item><title>Cat Shrine</title><link>/post/old/shrine/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>/post/old/shrine/</guid><description>&lt;p>This is a project I originally completed in 2019.&lt;/p>
+&lt;figure>&lt;img src="ashrine.jpg"
+alt="Figure 1. Finished cat shrine."/>&lt;figcaption>
+&lt;p>Figure 1. Finished cat shrine.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>I designed a shrine to hold the ashes
+and paw prints of our passed cats, with room for decorations and, of course,
+live cats as well.&lt;/p>
+&lt;p>Several pieces of a pile of local cherry I bought had some highly figured
+crotch at the ends of the boards. The design highlights the unusual figure
+of those boards as a wide open shelf. I even left some of the bark on, and
+just strengthened it with shellac.&lt;/p>
+&lt;figure>&lt;img src="bottom.jpg"
+alt="Figure 2. Figure on the bottom shelf."/>&lt;figcaption>
+&lt;p>Figure 2. Figure on the bottom shelf.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>At the left, I attached a side board using dovetails to the bottom shelf,
+and then using a rabbet in the side board attached a back panel for the
+smaller shelves. The back is also attached to the bottom using a dowel,
+but that&amp;rsquo;s only near the left edge to allow for wood movement.&lt;/p>
+&lt;div class="photo-gallery ">
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="2-gallery-0"
+checked="checked"
+name="gallery2"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="back.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 3. Gluing the back piece on.&lt;/div>
+&lt;/div>
+&lt;label
+for="2-gallery-0"
+class="gallery-thumb"
+style="background-image: url(back.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="2-gallery-1"
+name="gallery2"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="oops.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 4. The figured wood is brittle in places. I fixed it with glue.&lt;/div>
+&lt;/div>
+&lt;label
+for="2-gallery-1"
+class="gallery-thumb"
+style="background-image: url(oops.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;/div>
+&lt;p>The shelves were glued in mostly to the left board as well, rather than the
+back. I wanted to make sure the movement of the back panel would not cause
+issues.&lt;/p>
+&lt;p>I added little pegs to the perimiter of the small shelves to make sure cats
+couldn&amp;rsquo;t knock the boxes out of the shelves. The pegs I made from a long dowel
+of walnut&lt;/p>
+&lt;figure>&lt;img src="shelf.jpg"
+alt="Figure 5. Walnut pegs on the shelf."/>&lt;figcaption>
+&lt;p>Figure 5. Walnut pegs on the shelf.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Lastly, I added another wider shelf at the top using another end piece,
+as a place for cats to sit. This final shelf is attached with a mortise
+and tenon through the shelf.&lt;/p>
+&lt;figure>&lt;img src="cat.jpg"
+alt="Figure 6. Making use of the top shelf."/>&lt;figcaption>
+&lt;p>Figure 6. Making use of the top shelf.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Thank you for reading.&lt;/p></description></item><item><title>Library Cart</title><link>/post/old/librarycart/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>/post/old/librarycart/</guid><description>&lt;p>This is a project originally done in 2018.&lt;/p>
 &lt;p>This is the first real piece of furniture I made, a full-size library cart
 as a gift for my wife.&lt;/p>
 &lt;figure>&lt;img src="cart.jpg"
@@ -88,8 +166,8 @@ out a screw hole in wood.&lt;/p>
 &lt;input
 type="radio"
 id="8-gallery-0"
-checked
-name="gallery"
+checked="checked"
+name="gallery8"
 class="gallery-selector"
 />
 &lt;div class="gallery-img">
@@ -106,7 +184,7 @@ style="background-image: url(caster-insert.jpg);"
 &lt;input
 type="radio"
 id="8-gallery-1"
-name="gallery"
+name="gallery8"
 class="gallery-selector"
 />
 &lt;div class="gallery-img">
@@ -123,7 +201,7 @@ style="background-image: url(caster.jpg);"
 &lt;input
 type="radio"
 id="8-gallery-2"
-name="gallery"
+name="gallery8"
 class="gallery-selector"
 />
 &lt;div class="gallery-img">
@@ -140,7 +218,7 @@ style="background-image: url(parts.jpg);"
 &lt;input
 type="radio"
 id="8-gallery-3"
-name="gallery"
+name="gallery8"
 class="gallery-selector"
 />
 &lt;div class="gallery-img">

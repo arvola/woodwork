@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>instrument on Arvola Woodwork</title><link>/tags/instrument/</link><description>Recent content in instrument on Arvola Woodwork</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sat, 19 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/instrument/index.xml" rel="self" type="application/rss+xml"/><item><title>Kantele</title><link>/post/old/kantele/</link><pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate><guid>/post/old/kantele/</guid><description>&lt;p>This is a project I originally completed in 2020.&lt;/p>
+&lt;figure>&lt;img src="0kantele.jpg"
+alt="Figure 1. The completed kantele."/>&lt;figcaption>
+&lt;p>Figure 1. The completed kantele.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>A &lt;a href="https://en.wikipedia.org/wiki/Kantele" target="_blank">kantele&lt;/a> is a traditional
+Finnish box zither, a string instrument. It is typically plucked or
+strummed, but can also be used with a bow.&lt;/p>
+&lt;p>Since it was my first time building one, I found some pre-existing plans
+from &lt;a href="http://www.michaeljking.com/index.htm" target="_blank">Michael J King&lt;/a>. The plans
+provided all the necessary information for sizing and placement for the
+tuning pins.&lt;/p>
+&lt;figure>&lt;img src="plan.jpg"
+alt="Figure 2. Printed paper plan for the soundboard."/>&lt;figcaption>
+&lt;p>Figure 2. Printed paper plan for the soundboard.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>I found some nice quarter-sawn sapele for the soundboard, a beautiful
+wood that&amp;rsquo;s also a decent tone wood. The sides of the frame are also
+from the same board of sapele, and then for the rest I chose hard maple
+as a good wood for holding the tuning pins and the stock steel bar.&lt;/p>
+&lt;div class="photo-gallery ">
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="2-gallery-0"
+checked="checked"
+name="gallery2"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="frame-stock.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 3. Gluing the stock of the frame.&lt;/div>
+&lt;/div>
+&lt;label
+for="2-gallery-0"
+class="gallery-thumb"
+style="background-image: url(frame-stock.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="2-gallery-1"
+name="gallery2"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="frame-head.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 4. Gluing the head of the frame.&lt;/div>
+&lt;/div>
+&lt;label
+for="2-gallery-1"
+class="gallery-thumb"
+style="background-image: url(frame-head.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="2-gallery-2"
+name="gallery2"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="shaping.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 5. Shaping the frame.&lt;/div>
+&lt;/div>
+&lt;label
+for="2-gallery-2"
+class="gallery-thumb"
+style="background-image: url(shaping.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;/div>
+&lt;p>When gluing the frame, I inserted a few dowels between the maple and
+the sapele sides to stop movement during gluing. I added an additional piece
+of sapele on the bottom of the maple head to complete the frame, and then
+did shaping using chisels, gouges, rasps and files to finish off the shape
+of the frame.&lt;/p>
+&lt;figure>&lt;img src="frame.jpg"
+alt="Figure 6. Completed frame."/>&lt;figcaption>
+&lt;p>Figure 6. Completed frame.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Next, it was time to attach the soundboard. I cut it to a very rough shape
+first for gluing it to the frame, and then trimmed it down to match the
+frame after.&lt;/p>
+&lt;figure>&lt;img src="soundboard.jpg"
+alt="Figure 7. Gluing on the soundboard."/>&lt;figcaption>
+&lt;p>Figure 7. Gluing on the soundboard.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>I wanted to add some accent between the soundboard and the maple head,
+so I made some strips of wood from bloodwood and wenge. The red and dark
+colors complement the otherwise fairly light instrument very nicely.&lt;/p>
+&lt;div class="photo-gallery ">
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="5-gallery-0"
+checked="checked"
+name="gallery5"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="accent-woods.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 8. Exotic wood blocks I cut the strips from.&lt;/div>
+&lt;/div>
+&lt;label
+for="5-gallery-0"
+class="gallery-thumb"
+style="background-image: url(accent-woods.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="5-gallery-1"
+name="gallery5"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="accent-planning.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 9. Planning the size of the accents.&lt;/div>
+&lt;/div>
+&lt;label
+for="5-gallery-1"
+class="gallery-thumb"
+style="background-image: url(accent-planning.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="5-gallery-2"
+name="gallery5"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="accent-strips.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 10. Gluing the accent strips together.&lt;/div>
+&lt;/div>
+&lt;label
+for="5-gallery-2"
+class="gallery-thumb"
+style="background-image: url(accent-strips.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="5-gallery-3"
+name="gallery5"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="accent-gluing.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 11. Gluing the accent to the instrument.&lt;/div>
+&lt;/div>
+&lt;label
+for="5-gallery-3"
+class="gallery-thumb"
+style="background-image: url(accent-gluing.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="5-gallery-4"
+name="gallery5"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="head-glue.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 12. Gluing a thin piece of maple to finish off the top.&lt;/div>
+&lt;/div>
+&lt;label
+for="5-gallery-4"
+class="gallery-thumb"
+style="background-image: url(head-glue.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;/div>
+&lt;p>With the frame and the soundboard complete, it only remained to add the main
+stock that holds the steel bar for the strings to attach. I spent a lot of
+time shaping the stock, since that&amp;rsquo;s where the player&amp;rsquo;s right hand rests most
+of the time.&lt;/p>
+&lt;div class="photo-gallery ">
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="6-gallery-0"
+checked="checked"
+name="gallery6"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="stock.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 13. The shaped stock.&lt;/div>
+&lt;/div>
+&lt;label
+for="6-gallery-0"
+class="gallery-thumb"
+style="background-image: url(stock.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="6-gallery-1"
+name="gallery6"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="assembled.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 14. Wooden parts fully assembled.&lt;/div>
+&lt;/div>
+&lt;label
+for="6-gallery-1"
+class="gallery-thumb"
+style="background-image: url(assembled.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;/div>
+&lt;p>Before proceeding to add the hardware parts, I added the finish to the wood.
+I wanted to do a classic french polishing, which is basically rubbing on
+very, very thin layers of shellac to build up a hundred or more layers
+of finish. It&amp;rsquo;s time-consuming, but the outcome is stunning. Unfortunately
+I forgot to take pictures of the process.&lt;/p>
+&lt;div class="photo-gallery ">
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="7-gallery-0"
+checked="checked"
+name="gallery7"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="rod.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 15. Adding the steel rod.&lt;/div>
+&lt;/div>
+&lt;label
+for="7-gallery-0"
+class="gallery-thumb"
+style="background-image: url(rod.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;div class="gallery-item">
+&lt;input
+type="radio"
+id="7-gallery-1"
+name="gallery7"
+class="gallery-selector"
+/>
+&lt;div class="gallery-img">
+&lt;img src="pinholes.jpg" alt="" />
+&lt;div class="gallery-caption">Figure 16. Drilling holes for the zither pins. The only time I used a power tool.&lt;/div>
+&lt;/div>
+&lt;label
+for="7-gallery-1"
+class="gallery-thumb"
+style="background-image: url(pinholes.jpg);"
+>&lt;/label>
+&lt;/div>
+&lt;/div>
+&lt;p>After finishing, I added the steel bar to the stock, drilled the holes for
+the zither pins, and added strings.&lt;/p>
+&lt;figure>&lt;img src="finish.jpg"
+alt="Figure 17. Detail of the accent after finishing."/>&lt;figcaption>
+&lt;p>Figure 17. Detail of the accent after finishing.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Thank you for reading.&lt;/p></description></item></channel></rss>
