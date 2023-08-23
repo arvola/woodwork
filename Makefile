@@ -7,5 +7,5 @@ deploy:
 	ipfs-deploy -u filebase -d cloudflare -t arvola.blog public/
 
 fix-images:
-	find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec mogrify -auto-orient -resize '1920x1080>' {} \;
+	find content -iname '*.jpg' -type f | xargs -I '{}' identify -format '%w %h %i\n' {} | awk '$$2>1080{print$$3}' | xargs mogrify -auto-orient -resize '1920x1080>'
 	exiftool -overwrite_original -all= -r .
